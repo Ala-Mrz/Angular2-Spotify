@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
-
+import {navBarComponent} from './components/navbar/navbar.component';
 @Component({
+  moduleId:module.id,
   selector: 'my-app',
-  template: `<h1>Hello {{name}}</h1>`,
+  templateUrl: `app.component.html`,
 })
-export class AppComponent  { name = 'Angular'; }
+export class AppComponent  {  }
