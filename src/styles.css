@@ -24,3 +24,10 @@
     padding: 10px 20px;
     border: #666 1px solid;
 }
+
+.album-thumb{
+    width:100px;
+    height:auto;
+    float:left;
+    margin-right:10px;
+}

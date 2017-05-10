@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import {navBarComponent} from './components/navbar/navbar.component';
 import {aboutComponent} from './components/about/about.component';
 import {searchComponent} from './components/search/search.component';
+import {artistComponent} from './components/artist/artist.component';
+import {albumComponent} from './components/album/album.component';
 import { HttpModule } from '@angular/http';
 import {SpotifyService} from './services/spotify.service';
 
